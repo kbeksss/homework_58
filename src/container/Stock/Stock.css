@@ -1,0 +1,12 @@
+.Stock{
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 0 15px;
+    text-align: center;
+}
+.Stock .CartOrder{
+    width: 80px;
+    height: 80px;
+    background: url("./images/cart.png") 50% 50% no-repeat;
+    background-size: cover;
+}
