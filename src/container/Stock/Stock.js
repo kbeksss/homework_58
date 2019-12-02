@@ -15,6 +15,8 @@ class Stock extends Component {
         totalPrice: 100,
         alertSuccess: false,
         alertWarning: false,
+        alertDanger: false,
+        alertPrimary: false,
     };
     addToCart = (id, index) => {
         let cart = [...this.state.cart];
@@ -56,7 +58,7 @@ class Stock extends Component {
         this.setState({purchasable: cart.length > 0})
     };
     updateAlertSuccess = () => {
-        this.setState({ordering: false, alertSuccess: !this.state.alertSuccess});
+        this.setState({ordering: false, alertSuccess: !this.state.alertSuccess, cart: [], totalPrice: 100, purchasable: false});
     };
     updateAlertWarning = () => {
         this.setState({alertWarning: !this.state.alertWarning});
@@ -64,7 +66,8 @@ class Stock extends Component {
     render() {
         return (
             <div className='Stock'>
-                <div>
+                <h2>Welcome to our wholesale store</h2>
+                <div className='Button-div'>
                     <button
                         className='CartOrder'
                         disabled={!this.state.purchasable}

@@ -1,7 +1,7 @@
 import nanoid from 'nanoid';
 const GOODS = {
     smartPhones: [
-        {brand: 'samsung', model: 'Galaxy Note 10 +', price: 68000, image: 'https://ostore.kg/upload/resize_cache/iblock/d8d/220_200_1/1Black.JPG', id: '5656'},
+        {brand: 'samsung', model: 'Galaxy Note 10 +', price: 68000, image: 'https://ostore.kg/upload/resize_cache/iblock/d8d/220_200_1/1Black.JPG', id: nanoid()},
         {brand: 'samsung', model: 'Galaxy A70 +', price: 26000, image: 'https://ostore.kg/upload/resize_cache/iblock/b7e/220_200_1/1Black.JPG', id: nanoid()},
         {brand: 'samsung', model: 'Galaxy J2 Prime 2017', price: 6100, image: 'https://ostore.kg/upload/resize_cache/iblock/5dc/220_200_1/292uKSz44NRSe.jpg', id: nanoid()},
         {brand: 'samsung', model: 'J260 Core', price: 5800, image: 'https://ostore.kg/upload/resize_cache/iblock/48c/220_200_1/1eb076c355038775dc87fb1bb40110aa.png', id: nanoid()},

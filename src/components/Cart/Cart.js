@@ -1,11 +1,10 @@
 import React, {Fragment} from 'react';
 import Button from "../UI/Button/Button";
-import nanoid from "nanoid";
 
 const Cart = props => {
     const cart = props.cart.filter(good => good.count > 0).map(product => {
             return (
-                <li key={nanoid()}>
+                <li key={product.id}>
                     {product.brand} {product.model} x {product.count}
                 </li>
             )

@@ -4,13 +4,21 @@
     padding: 0 15px;
     text-align: center;
 }
+.Stock h2{
+    text-transform: uppercase;
+    color: #fff;
+}
 .Stock .CartOrder{
     width: 80px;
     height: 80px;
-    background: url("./images/cart.png") 50% 50% no-repeat;
+    background: url("./images/cart.png") no-repeat;
     background-size: cover;
 }
 
+.Stock .Button-div{
+    display: inline-block;
+    background: #e5dee6;
+}
 .Stock ul{
     list-style: none;
 }
