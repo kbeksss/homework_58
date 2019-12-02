@@ -8,9 +8,9 @@ const Product = (props) => {
             <span className='Brand'>{props.brand}</span>
             <span className='Model'>{props.model}</span>
             <span className='Price'>{props.price}</span>
-            <div className='Hover'>
-                <span className='Add' onClick={props.add}>Add to the cart</span>
-                <span className='Remove' onClick={props.remove}>Remove from the cart</span>
+            <div className='Hover '>
+                <button aria-disabled='true' className='Add' onClick={props.add}>Add to cart</button>
+                <button className='Remove' disabled={props.disabled} onClick={props.remove}>Remove from cart</button>
             </div>
         </div>
     );

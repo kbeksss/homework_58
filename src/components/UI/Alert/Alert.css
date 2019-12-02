@@ -1,0 +1,45 @@
+.Alert{
+    z-index: 999;
+    position: fixed;
+    width: 50vw;
+    top: 20px;
+    left: 20%;
+    transform: translateX(-50%);
+    padding: 20px 40px 20px 20px;
+    border-radius: 8px;
+}
+.Alert.Success{
+    background: #96e281;
+    color: #000;
+}
+.Alert.Success .Button{
+    color: #000;
+}
+.Alert.Warning{
+    background: #ffa100;
+}
+.Alert.Warning .Button{
+    color: #ffa900
+}
+
+.Alert.Danger{
+    background: #ff0007;
+}
+.Alert.Danger .Button{
+    color: #3b00ff
+}
+.Alert.Primary{
+    background: #fff012;
+}
+.Alert.Primary .Button{
+    color: #000;
+}
+.Alert .Button{
+    font-size: 22px;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 8px;
+}

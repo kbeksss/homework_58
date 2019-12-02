@@ -26,16 +26,21 @@
     height: 100%;
     background: rgba(44,44,44,0.67);
 }
-.Product .Hover span{
+.Product .Hover button{
     cursor: pointer;
     background: #c1c1c1;
     width: 90%;
     padding: 10px 0;
     border-radius: 5px;
 }
-.Product .Hover span:hover{
+.Product .Hover button:hover{
     color: #fff;
     background: #858585;
+}
+.Product .Hover button:disabled{
+    color: #fff;
+    background: #676767;
+    cursor: not-allowed;
 }
 .Product:hover .Hover{
     display: flex;

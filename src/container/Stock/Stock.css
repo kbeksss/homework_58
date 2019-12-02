@@ -10,3 +10,11 @@
     background: url("./images/cart.png") 50% 50% no-repeat;
     background-size: cover;
 }
+
+.Stock ul{
+    list-style: none;
+}
+.Stock ul li{
+    padding: 10px 0;
+    color: #464646
+}
