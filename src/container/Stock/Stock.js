@@ -108,7 +108,6 @@ class Stock extends Component {
             </div>
         );
     }
-
 }
 
 export default Stock;
